@@ -1,0 +1,101 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Data scientist, educator, and AI specialist focused on problem-solving and data-driven solutions, with expertise in strategic leadership and educational technology implementation. Currently Data Science Specialist at London School of Economics and Political Science, managing Digital Skills Lab projects, developing Tableau-based reporting systems, and delivering data science training in Python, R, and Tableau. MSc Artificial Intelligence student at University of Leeds with strong background in AI literacy, digital strategy, and educational technology.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="MSc Artificial Intelligence"
+      subtitle="2024-2026 (In Progress) at University of Leeds"
+    />
+    <TimeLineElement
+      title="Professional Certificate in Machine Learning & AI"
+      subtitle="2024 at Imperial College Business School"
+    />
+    <TimeLineElement
+      title="Postgraduate Certificate in Digital Education"
+      subtitle="2024 at University of Edinburgh"
+    />
+    <TimeLineElement
+      title="BSc Physics (Hons)"
+      subtitle="2003 at University College London"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Data Science Specialist"
+      subtitle="06/2023–Present at London School of Economics and Political Science"
+    >
+      Manages Digital Skills Lab projects and evaluation metrics, develops Tableau-based live reporting systems, delivers data science training in Python, R, and Tableau, and oversees AI Literacy module development.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Head of Digital Strategy and Data"
+      subtitle="09/2022–03/2023 at Education for the 21st Century"
+    >
+      Led digital transformation and data analytics initiatives for educational organization, implementing strategic technology frameworks and data-driven decision-making processes.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Digital Learning Lead"
+      subtitle="09/2021–08/2022 at Harris Federation"
+    >
+      Oversaw digital learning strategy and implementation across the federation, managing educational technology platforms and digital transformation initiatives.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Digital Innovation & Learning Lead"
+      subtitle="09/2019–08/2021 at Star Academies"
+    >
+      Led digital innovation initiatives and learning technology strategy, implementing new educational technologies and training staff on digital tools.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>Microsoft Certified Educator</li>
+    <li>Certified Scrum Master</li>
+    <li>Fellow, Chartered College of Teaching</li>
+    <li>Associate Member, Association of Learning Technology</li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Python</li>
+    <li>R</li>
+    <li>Tableau</li>
+    <li>Data Visualization</li>
+    <li>Machine Learning</li>
+    <li>Data Analysis</li>
+    <li>Statistical Analysis</li>
+    <li>GDPR Compliance</li>
+    <li>LMS Platforms</li>
+    <li>Agile</li>
+    <li>Scrum</li>
+    <li>Project Management</li>
+    <li>Strategic Leadership</li>
+    <li>Educational Technology</li>
+    <li>AI Literacy</li>
+  </ul>
+</BaseLayout>
