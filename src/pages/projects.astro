@@ -3,49 +3,99 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
-<BaseLayout title = "Projects" sideBarActiveItemID="projects">
+<BaseLayout title="Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Machine Learning & Data Science</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
+    title="MathDial: Dialogue Tutoring Dataset"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
+    desc="A rich pedagogical dataset grounded in math reasoning problems. Explores dialogue-based tutoring approaches with structured educational content for math learning."
+    url="https://github.com/saqibsafdar11/mathdial"
+    badge="FEATURED"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
+    title="ML Models for Fraud Detection"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="Binary classification project using neural networks and Histogram Gradient Boosting Classifier for detecting fraudulent insurance claims with high accuracy."
+    url="https://github.com/saqibsafdar11/ML-Models-for-Fraud-Detection-in-an-Insurance-Company"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Predicting Heart Disease"
+    img="/post_img.webp"
+    desc="Machine learning project using K-Nearest Neighbors approach to predict the likelihood of heart disease based on health indicators and patient data."
+    url="https://github.com/saqibsafdar11/Predicting-Heart-Disease---ML-Project"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Predicting Listing Gains in IPO Market"
+    img="/post_img.webp"
+    desc="Deep learning project using TensorFlow to predict stock listing gains in the Indian IPO market. Applies neural networks to financial forecasting."
+    url="https://github.com/saqibsafdar11/Predicting-Listing-Gains-in-the-Indian-IPO-Market"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="University Admissions Prediction"
+    img="/post_img.webp"
+    desc="Statistical model to predict chances of university admission based on academic performance, test scores, and application materials."
+    url="https://github.com/saqibsafdar11/Evaluating-university-admissions-data-to-predict-the-chances-of-admission"
   />
 
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Data Engineering & Analytics</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 3"
+    title="Data Engineering with PySpark"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    desc="Large-scale data processing project using PySpark to clean and prepare 16+ million rows of data for analysis. Demonstrates data pipeline optimization."
+    url="https://github.com/saqibsafdar11/Data-Engineering-Project-Using-Pyspark"
+    badge="BIG DATA"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 4"
+    title="911 Calls Capstone Project"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="Comprehensive data analysis using Python with data preprocessing, feature engineering, and advanced visualization techniques on emergency call data."
+    url="https://github.com/saqibsafdar11/911-Calls-Capstone-Project--Python"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 5"
+    title="Customers & Products Analysis"
     img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    desc="SQL-based analysis project exploring customer behavior and product performance relationships using advanced database queries."
+    url="https://github.com/saqibsafdar11/Customers-and-Products-Analysis-Using-SQL"
+  />
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Research & Education Analytics</div>
+  </div>
+
+  <HorizontalCard
+    title="DfE P8 School Performance Analysis"
+    img="/post_img.webp"
+    desc="Analyzes UK school performance for disadvantaged pupils at Key Stage 4. Research project identifying positive outlier schools during 2022/23 academic year."
+    url="https://github.com/saqibsafdar11/DfE_P8_Project"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="COVID-19 Virus Trends Investigation"
+    img="/post_img.webp"
+    desc="R programming project exploring COVID-19 data structures and trends. Demonstrates data manipulation and statistical analysis in epidemiological context."
+    url="https://github.com/saqibsafdar11/Investigating-COVID-19-Virus-Trends"
+  />
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Knowledge & Reasoning</div>
+  </div>
+
+  <HorizontalCard
+    title="Knowledge Representation & Reasoning"
+    img="/post_img.webp"
+    desc="Project exploring knowledge representation and logical reasoning systems. Implements formal logic approaches for knowledge management."
+    url="https://github.com/saqibsafdar11/Logic"
   />
 </BaseLayout>
